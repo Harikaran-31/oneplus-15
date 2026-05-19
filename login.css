@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#bname{
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(218, 11, 11);
+}
+.navber{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.nav0{
+    background-color: transparent;
+}
+.nav1{
+    color: rgb(252, 254, 255);
+    background-color: transparent;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    padding-top: 10px;
+    margin-left: 15px;
+    background-color: transparent;
+}
+#float0{
+    margin-left: 480px;
+    padding-top: 10px;
+    width: 60.5px;
+}
+.fa-circle-user{
+    background-color: transparent;
+    font-size: 28px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.anker0{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+#dropdown{
+    position: relative;
+}
+.drop{
+    display: none;
+    position: absolute;
+    width: 100px;
+    padding: 8px;
+    padding-right: 20px;
+    background-color: rgb(170, 161, 161);
+    border-radius: 5px;
+}
+.drop ul li{
+        list-style-type: none;
+        background-color: rgb(170, 161, 161);
+        padding: 7px;
+}
+#dropdown:hover .drop{
+    display: block;
+}
+.table{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.table:hover{
+    color: rgb(255, 3, 3);
+    background-color: transparent;
+}
+.navber .nav0 li a:hover{
+    color: rgb(255, 3, 3);
+}
+.back{
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    background-image: url("./Assets/extra/background.png");
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.712);
+    border: 2px solid rgb(254, 254, 254);
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 700px;
+    border-radius: 80px;
+    position: relative;
+    bottom: -68px;
+}
+.register{
+    color: white;
+    margin-left: 780px;
+    line-height: 40px;
+    position: relative;
+    bottom: 220px;
+}
+.sub{
+    background-color:rgb(229, 13, 13);
+    border-color: red;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

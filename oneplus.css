@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+#bname{
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(218, 11, 11);
+}
+.navber{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: fixed;
+}
+.nav0{
+    background-color: transparent;
+}
+.nav1{
+    color: rgb(252, 254, 255);
+    background-color: transparent;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    padding-top: 10px;
+    margin-left: 15px;
+    background-color: transparent;
+}
+#float0{
+    margin-left: 480px;
+    padding-top: 10px;
+    width: 60.5px;
+}
+.fa-circle-user{
+    background-color: transparent;
+    font-size: 28px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.anker0{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+#dropdown{
+    position: relative;
+}
+.drop{
+    display: none;
+    position: absolute;
+    width: 100px;
+    padding: 8px;
+    padding-right: 20px;
+    background-color: rgb(170, 161, 161);
+    border-radius: 5px;
+}
+.drop ul li{
+        list-style-type: none;
+        background-color: rgb(170, 161, 161);
+        padding: 7px;
+}
+#dropdown:hover .drop{
+    display: block;
+}
+.table{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.table:hover{
+    color: rgb(255, 3, 3);
+    background-color: transparent;
+}
+.navber .nav0 li a:hover{
+    color: rgb(255, 3, 3);
+}
+
+.home{
+    background-image: url(./Assets/extra/Picsart_26-04-11_12-21-42-159.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 650px;
+    background-position: 100%;
+    
+}
+.homea{
+    padding-left: 100px;
+    padding-top: 150px;
+    color: rgb(247, 247, 247);
+    background-color: transparent;
+}
+.homeb{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: transparent;
+}
+.homec{
+    padding-left: 100px;
+    padding-top: 10px;
+    color: white;
+    background-color: transparent;
+}
+.buy{
+    padding-left:100px;
+    display: inline-block;
+}
+.buy button{
+    background-color: red;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.buy a{
+    background-color: red;
+    text-decoration-line: none;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+}
+.Feature1{
+    background-image: url(./Assets/extra/Picsart_26-04-24_17-47-12-573.jpg.jpeg);
+    background-position: 100%;
+    background-color: transparent;
+    margin-top: -60px;
+    margin-left: -30px;
+    background-repeat: no-repeat;
+    background-size: 380px;
+    width: 100%;
+    height: 650px;
+}
+.homed{
+    padding-left: 100px;
+    padding-top: 120px;
+    color: rgb(205, 17, 17);
+    background-color: transparent;
+}
+.homee{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: transparent;
+}
+.homef{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: transparent;
+}
+.Feature2{
+    background-image: url(./Assets/extra/display1.webp);
+    background-position: top;
+    padding-top: -25px;
+    margin-top: 20px;
+    margin-left: -360px;
+    background-repeat: no-repeat;
+    background-size: 470px;
+    width: 100%;
+    height: 650px;
+}
+.homei{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(205, 17, 17);
+    margin-left: 1065px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.homej{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 1070px;
+    margin-bottom: 10px;
+    width: 500px;
+    color: white;
+    background-color: transparent;
+}
+.homek{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 800px;
+    margin-left: 270px;
+    width: 500px;
+    color: white;
+    background-color: transparent;
+}
+.Feature3{
+    background-image: url(./Assets/extra/Picsart_26-04-11_12-36-23-530.png);
+    background-position: 100%;
+    background-color: transparent;
+    margin-top: -380px;
+    margin-left: -30px;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    width: 100%;
+    height: 650px;
+    display: inline-block;
+}
+.homel{
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 120px;
+    color: rgb(205, 17, 17);
+    background-color: transparent;
+}
+.homem{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: transparent;
+}
+.homen{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: transparent;
+}
+.Feature4{
+    margin-top: -80px;
+}
+.About{
+    padding: 40px;
+}
+.war{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last{
+    color: white;
+    padding: 20px;
+}
