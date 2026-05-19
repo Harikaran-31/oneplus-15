@@ -32,5 +32,3 @@ Add JavaScript functionality
 Improve animations and transitions
 Add backend integration
 Deploy with custom domain
-
-where should add this descrition
